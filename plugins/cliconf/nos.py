@@ -21,6 +21,10 @@ __metaclass__ = type
 
 DOCUMENTATION = '''
 ---
+deprecated:
+  removed_in: 6.0.0
+  why: This collection and all content in it is unmaintained and deprecated.
+  alternative: Unknown.
 author: Unknown (!UNKNOWN)
 name: nos
 short_description: Use nos cliconf to run command on Extreme NOS platform
@@ -67,6 +71,7 @@ class Cliconf(CliconfBase):
         return device_info
 
     def get_config(self, source='running', flags=None):
+        cmd = ''
         if source not in 'running':
             raise ValueError("fetching configuration from %s is not supported" % source)
         if source == 'running':

@@ -252,7 +252,10 @@ plugins/modules/ce_command.py validate-modules:parameter-type-not-in-doc
 plugins/modules/ce_config.py validate-modules:doc-missing-type
 plugins/modules/ce_config.py validate-modules:parameter-list-no-elements
 plugins/modules/ce_config.py validate-modules:parameter-type-not-in-doc
+<<<<<<< HEAD
 plugins/modules/ce_config.py validate-modules:undocumented-parameter
+=======
+>>>>>>> upstream/main
 plugins/modules/ce_dldp.py validate-modules:nonexistent-parameter-documented
 plugins/modules/ce_dldp.py validate-modules:parameter-type-not-in-doc
 plugins/modules/ce_dldp.py validate-modules:undocumented-parameter
@@ -837,6 +840,10 @@ plugins/module_utils/network/exos/facts/lldp_global/lldp_global.py pylint:unused
 plugins/module_utils/network/exos/facts/lldp_interfaces/lldp_interfaces.py pylint:unused-import
 plugins/module_utils/network/exos/facts/vlans/vlans.py pylint:unused-import
 plugins/module_utils/network/ftd/common.py pylint:unidiomatic-typecheck
+<<<<<<< HEAD
+=======
+plugins/module_utils/network/ftd/configuration.py pylint:use-yield-from
+>>>>>>> upstream/main
 plugins/module_utils/network/icx/icx.py pylint:unused-import
 plugins/module_utils/network/ironware/ironware.py pylint:unused-import
 plugins/module_utils/network/netscaler/netscaler.py pylint:unused-import
@@ -909,6 +916,10 @@ plugins/terminal/netvisor.py pylint:unused-import
 plugins/terminal/weos4.py pylint:unused-import
 tests/sanity/extra/botmeta.py pylint:unused-import
 tests/unit/compat/builtins.py pylint:unused-import
+<<<<<<< HEAD
+=======
+tests/unit/compat/mock.py pylint:use-yield-from
+>>>>>>> upstream/main
 tests/unit/mock/loader.py pylint:unidiomatic-typecheck
 tests/unit/plugins/httpapi/test_ftd.py pylint:unidiomatic-typecheck
 tests/unit/plugins/modules/test_apconos_command.py pylint:unused-import
