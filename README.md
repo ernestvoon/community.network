@@ -1,6 +1,13 @@
 # Community Network Collection
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+:warning: **DEPRECATED: This collection is not not actively maintained anymore.**
+
+For more information why we decided to deprecate the collection, please see [this thread](https://forum.ansible.com/t/8030).
+
+>>>>>>> upstream/stable-5
 [![Build Status](https://dev.azure.com/ansible/community.network/_apis/build/status/CI?branchName=stable-5)](https://dev.azure.com/ansible/community.network/_build?definitionId=32)
 =======
 :warning: **DEPRECATED: This collection is not not actively maintained anymore.**
@@ -44,6 +51,7 @@ If you're interested in becoming a maintainer of this collection, refer to the [
     * [News & Announcements](https://forum.ansible.com/c/news/5): track project-wide announcements including social events.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Join us on Matrix in the following (and other) rooms:
 
 * [#users:ansible.com](https://matrix.to/#/#users:ansible.com): general use questions and support.
@@ -64,6 +72,11 @@ For more information about communication, see the [Ansible communication guide](
 
 <<<<<<< HEAD
 For more information about communication, refer to the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html).
+=======
+* The Ansible [Bullhorn newsletter](https://docs.ansible.com/ansible/devel/community/communication.html#the-bullhorn): used to announce releases and important changes.
+
+For more information about communication, see the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html).
+>>>>>>> upstream/stable-5
 
 ## Tested with ansible-core
 
