@@ -1,14 +1,6 @@
 namespace: community
 name: network
-<<<<<<< HEAD
-<<<<<<< HEAD
-version: 5.0.2
-=======
 version: 5.1.0
->>>>>>> upstream/main
-=======
-version: 5.1.0
->>>>>>> upstream/stable-5
 readme: README.md
 authors:
   - Ansible (https://github.com/ansible)
